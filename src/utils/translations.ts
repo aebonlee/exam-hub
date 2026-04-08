@@ -180,6 +180,7 @@ export const translations: Record<string, Record<string, unknown>> = {
         linuxMaster: '리눅스마스터',
         computerSkill: '컴퓨터활용능력',
         bizVisual: '경영정보시각화',
+        expertCert: '전문가 자격증',
         careerCounselor: '직업상담사',
         pricing: '요금제',
         franchise: '사이트분양',
@@ -205,6 +206,7 @@ export const translations: Record<string, Record<string, unknown>> = {
         categoryCoursesCount: '개 강좌',
         categoryViewAll: '전체 보기',
         categoryItCertDesc: '정보처리기사, SQLD, 리눅스마스터, 컴퓨터활용능력, 경영정보시각화 등 IT 자격증 시험을 체계적으로 준비합니다.',
+        categoryExpertCertDesc: '직업상담사 등 전문가 자격증 시험을 체계적으로 준비합니다.',
         ctaBottomTitle: '지금 자격증 학습을 시작하세요',
         ctaBottomDesc: '5개 자격증 학습사이트에서 체계적인 커리큘럼으로 학습할 수 있습니다.',
         ctaBottomBtn: '강좌 시작하기'
@@ -455,7 +457,7 @@ export const translations: Record<string, Record<string, unknown>> = {
     site: {
       nav: {
         courses: 'Courses', itCert: 'IT Certifications', eip: 'Engineer Information Processing', sqld: 'SQLD',
-        linuxMaster: 'Linux Master', computerSkill: 'Computer Skills', bizVisual: 'Business Info Visualization', careerCounselor: 'Career Counselor',
+        linuxMaster: 'Linux Master', computerSkill: 'Computer Skills', bizVisual: 'Business Info Visualization', expertCert: 'Expert Certifications', careerCounselor: 'Career Counselor',
         pricing: 'Pricing', franchise: 'Site Franchise', franchiseInquiry: 'Franchise Inquiry',
         community: 'Community', aboutHub: 'About Hub', notice: 'Notice', qna: 'Q&A'
       },
@@ -468,6 +470,7 @@ export const translations: Record<string, Record<string, unknown>> = {
         categoriesTitle: 'Learning Categories', categoriesSubtitle: 'We provide a systematic certification education curriculum',
         categoryCoursesCount: ' courses', categoryViewAll: 'View All',
         categoryItCertDesc: 'Systematically prepare for IT certifications including EIP, SQLD, Linux Master, Computer Skills, and Business Info Visualization.',
+        categoryExpertCertDesc: 'Systematically prepare for expert certifications including Career Counselor.',
         ctaBottomTitle: 'Start Your Certification Learning Today',
         ctaBottomDesc: 'Learn with structured curricula across 5 certification learning sites.',
         ctaBottomBtn: 'Get Started'

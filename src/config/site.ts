@@ -48,6 +48,7 @@ const site: SiteConfig = {
 
   categories: [
     { id: 'it-cert', name: 'IT자격증', nameEn: 'IT Certifications', icon: 'fa-solid fa-certificate', path: '/courses/it-cert' },
+    { id: 'expert-cert', name: '전문가 자격증', nameEn: 'Expert Certifications', icon: 'fa-solid fa-user-graduate', path: '/courses/expert-cert' },
   ],
 
   menuItems: [
@@ -59,6 +60,11 @@ const site: SiteConfig = {
         { path: '/courses/linux-master', labelKey: 'site.nav.linuxMaster' },
         { path: '/courses/computer-skill', labelKey: 'site.nav.computerSkill' },
         { path: '/courses/biz-visual', labelKey: 'site.nav.bizVisual' },
+      ]
+    },
+    {
+      labelKey: 'site.nav.expertCert', path: '/courses/expert-cert', activePath: '/courses/expert-cert',
+      dropdown: [
         { path: '/courses/career-counselor', labelKey: 'site.nav.careerCounselor' },
       ]
     },
@@ -82,6 +88,7 @@ const site: SiteConfig = {
 
   footerLinks: [
     { path: '/courses/it-cert', labelKey: 'site.nav.itCert' },
+    { path: '/courses/expert-cert', labelKey: 'site.nav.expertCert' },
     { path: '/franchise', labelKey: 'site.nav.franchise' },
     { path: '/pricing', labelKey: 'site.nav.pricing' },
     { path: '/about', labelKey: 'site.nav.community' },
@@ -157,7 +164,7 @@ const site: SiteConfig = {
     },
     {
       id: 'career-counselor', name: '직업상담사', nameEn: 'Career Counselor', url: 'https://jobpath.dreamitbiz.com',
-      icon: 'fa-solid fa-user-tie', color: '#0369A1', category: 'it-cert',
+      icon: 'fa-solid fa-user-tie', color: '#0369A1', category: 'expert-cert',
       description: '직업상담사 자격증 시험을 체계적으로 준비합니다.',
       descriptionEn: 'Systematically prepare for the Career Counselor certification exam.',
       techStack: ['직업상담', '고용정보', '노동법', '심리검사'], difficulty: 'intermediate',

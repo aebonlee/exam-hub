@@ -8,6 +8,7 @@ import type { ReactElement, RefObject } from 'react';
 
 const CATEGORY_DESC_KEYS: Record<string, string> = {
   'it-cert': 'site.home.categoryItCertDesc',
+  'expert-cert': 'site.home.categoryExpertCertDesc',
 };
 
 const Home = (): ReactElement => {
