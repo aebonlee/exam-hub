@@ -59,6 +59,7 @@ const site: SiteConfig = {
         { path: '/courses/linux-master', labelKey: 'site.nav.linuxMaster' },
         { path: '/courses/computer-skill', labelKey: 'site.nav.computerSkill' },
         { path: '/courses/biz-visual', labelKey: 'site.nav.bizVisual' },
+        { path: '/courses/career-counselor', labelKey: 'site.nav.careerCounselor' },
       ]
     },
     {
@@ -153,6 +154,18 @@ const site: SiteConfig = {
       features: ['시각화 실습', '대시보드 제작', '사례 분석'],
       featuresEn: ['Visualization practice', 'Dashboard creation', 'Case analysis'],
       target: '경영정보시각화 수험생, 데이터 분석가 지망생', targetEn: 'Biz visualization candidates, aspiring data analysts',
+    },
+    {
+      id: 'career-counselor', name: '직업상담사', nameEn: 'Career Counselor', url: 'https://jobpath.dreamitbiz.com',
+      icon: 'fa-solid fa-user-tie', color: '#0369A1', category: 'it-cert',
+      description: '직업상담사 자격증 시험을 체계적으로 준비합니다.',
+      descriptionEn: 'Systematically prepare for the Career Counselor certification exam.',
+      techStack: ['직업상담', '고용정보', '노동법', '심리검사'], difficulty: 'intermediate',
+      curriculum: ['직업상담학', '직업심리학', '직업정보론', '노동시장론', '노동관계법규'],
+      curriculumEn: ['Career counseling', 'Vocational psychology', 'Occupational information', 'Labor market theory', 'Labor relations law'],
+      features: ['기출문제 풀이', '모의고사', '핵심 요약'],
+      featuresEn: ['Past exam practice', 'Mock exams', 'Key summaries'],
+      target: '직업상담사 수험생, 고용서비스 종사자', targetEn: 'Career counselor candidates, employment service workers',
     },
   ],
 };

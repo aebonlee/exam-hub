@@ -180,6 +180,7 @@ export const translations: Record<string, Record<string, unknown>> = {
         linuxMaster: '리눅스마스터',
         computerSkill: '컴퓨터활용능력',
         bizVisual: '경영정보시각화',
+        careerCounselor: '직업상담사',
         pricing: '요금제',
         franchise: '사이트분양',
         franchiseInquiry: '분양 문의',
@@ -454,7 +455,7 @@ export const translations: Record<string, Record<string, unknown>> = {
     site: {
       nav: {
         courses: 'Courses', itCert: 'IT Certifications', eip: 'Engineer Information Processing', sqld: 'SQLD',
-        linuxMaster: 'Linux Master', computerSkill: 'Computer Skills', bizVisual: 'Business Info Visualization',
+        linuxMaster: 'Linux Master', computerSkill: 'Computer Skills', bizVisual: 'Business Info Visualization', careerCounselor: 'Career Counselor',
         pricing: 'Pricing', franchise: 'Site Franchise', franchiseInquiry: 'Franchise Inquiry',
         community: 'Community', aboutHub: 'About Hub', notice: 'Notice', qna: 'Q&A'
       },
